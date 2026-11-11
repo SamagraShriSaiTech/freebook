@@ -1,0 +1,69 @@
+.fb-core-form,.fb-core-search{display:grid;gap:13px;padding:18px;margin:16px 0;border:1px solid #dce8df;border-radius:14px;background:#fffdf8}.fb-core-form label,.fb-core-search label{display:grid;gap:6px;font-weight:600}.fb-core-form input:not([type=checkbox]),.fb-core-form select,.fb-core-form textarea,.fb-core-search input,.fb-core-search select{width:100%;padding:10px;border:1px solid #cbd8ce;border-radius:8px;box-sizing:border-box}.fb-core-form button,.fb-core-search button,.fb-core-inline button{justify-self:start;padding:10px 17px;background:#176b55;color:#fff;border:0;border-radius:8px;cursor:pointer}.fb-core-consent,.fb-core-check{display:flex!important;align-items:flex-start;gap:9px;font-size:.9rem}.fb-core-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;margin:16px 0}.fb-core-card{padding:15px;border:1px solid #e1e8e2;border-radius:12px;background:#fff}.fb-core-card img{width:100%;height:auto;border-radius:8px}.fb-core-card h3{margin:.6em 0}.fb-core-inline{display:inline-block;margin-top:8px}.fb-core-success{padding:12px;background:#e8f3ed;color:#176b55;border-radius:8px}.fb-core-muted{font-size:.86rem;opacity:.78}.fb-core-faq{padding:14px 16px;margin:10px 0;border:1px solid #e1e8e2;border-radius:10px;background:#fff}.fb-core-faq summary{font-weight:700;cursor:pointer;color:#176b55}.fb-core-faq>div{padding-top:10px}.fb-core-contact{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.fb-core-contact a{color:#176b55;text-decoration:underline}.fb-core-honeypot{position:absolute!important;left:-10000px!important;width:1px;height:1px;overflow:hidden}.fb-core-impact{margin:24px 0;padding:clamp(18px,4vw,34px);border-radius:18px;background:#fff9ef;color:#24332f}.fb-core-impact-intro>span{font-size:.75rem;font-weight:800;letter-spacing:.12em;color:#176b55}.fb-core-impact-intro h2{margin:.45rem 0;font-size:clamp(1.6rem,4vw,2.5rem);color:#176b55}.fb-core-impact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px;margin:22px 0}.fb-core-impact-card{padding:18px;border:1px solid #e4e9df;border-radius:14px;background:#fff;display:flex;flex-direction:column;gap:6px}.fb-core-impact-card strong{font-size:2rem;line-height:1.1;color:#176b55}.fb-core-impact-card span{font-size:.92rem}
+@media(min-width:700px){.fb-core-search{grid-template-columns:repeat(2,minmax(0,1fr));align-items:end}}
+
+/* v2.3.0 private account portals */
+.fb-core-portal{margin:24px 0;padding:clamp(18px,3vw,30px);border-radius:18px;background:#fff9ef;color:#24332f}
+.fb-core-portal-header{margin-bottom:22px}
+.fb-core-portal-eyebrow{font-size:.75rem;font-weight:800;letter-spacing:.12em;color:#176b55}
+.fb-core-portal-header h2{margin:.35rem 0;color:#176b55}
+.fb-core-portal-welcome{font-weight:700}
+.fb-core-portal-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.fb-core-portal-panel{padding:18px;border:1px solid #e1e8e2;border-radius:14px;background:#fff;min-width:0}
+.fb-core-portal-panel h3{margin-top:0;color:#176b55}
+.fb-core-portal-list{padding-left:20px}
+.fb-core-portal-list li{margin:9px 0}
+.fb-core-portal-list li span{display:block;font-size:.9em;color:#52645b}
+.fb-core-portal-subheading{margin-top:26px;color:#176b55}
+.fb-core-portal-footer{margin-top:20px;font-size:.9rem;color:#52645b}
+.fb-core-portal-login{max-width:480px;margin:24px auto;padding:20px;border:1px solid #dce8df;border-radius:14px;background:#fffdf8}
+.fb-core-portal-login form{display:grid;gap:12px}
+.fb-core-portal-login input[type=text],.fb-core-portal-login input[type=password]{width:100%;padding:10px;border:1px solid #cbd8ce;border-radius:8px}
+.fb-core-portal-login input[type=submit]{padding:10px 16px;background:#176b55;color:#fff;border:0;border-radius:8px}
+
+/* FreeBooks Core 2.5.0 — customer storefront */
+.fb-storefront{color:#24332f;margin:24px 0}.fb-store-filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px;align-items:end;padding:18px;background:#fff9ef;border:1px solid #e8eee9;border-radius:16px;margin-bottom:22px}.fb-store-filters label{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:600}.fb-store-filters input,.fb-store-filters select{width:100%;min-height:42px;padding:9px 11px;border:1px solid #d5dfd8;border-radius:9px;background:#fff;color:#24332f}.fb-store-filters button,.fb-store-buy{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:10px 16px;border:0;border-radius:9px;background:#176b55;color:#fff!important;text-decoration:none;font-weight:700;cursor:pointer}.fb-store-filters button:hover,.fb-store-buy:hover{background:#115541;color:#fff}.fb-store-clear{padding:10px;color:#176b55}.fb-storefront-count{color:#60736b;font-size:14px;margin:0 0 14px}.fb-store-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:18px}.fb-store-card{overflow:hidden;border:1px solid #e2e9e3;border-radius:15px;background:#fff;box-shadow:0 5px 18px rgba(36,51,47,.045);display:flex;flex-direction:column}.fb-store-card-image{display:block;aspect-ratio:4/3;background:#e8f3ed;overflow:hidden}.fb-store-image{width:100%;height:100%;object-fit:cover;display:block}.fb-store-image-placeholder{height:100%;display:grid;place-items:center;font-size:48px;color:#176b55}.fb-store-card-body{padding:15px;display:flex;flex-direction:column;gap:7px;flex:1}.fb-store-eyebrow{margin:0;color:#176b55;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.07em}.fb-store-card h3{font-size:17px;line-height:1.35;margin:0}.fb-store-card h3 a{color:#24332f;text-decoration:none}.fb-store-author,.fb-store-language{margin:0;color:#64766e;font-size:13px}.fb-store-card-bottom{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:auto;padding-top:10px}.fb-store-card-bottom strong,.fb-book-purchase strong{font-size:18px;color:#24332f}.fb-store-card-bottom .fb-store-buy{font-size:13px;min-height:36px;padding:8px 12px}.fb-store-unavailable{font-size:13px;color:#9a5c30}.fb-store-wishlist{margin-top:6px}.fb-store-wishlist button{border:0;background:transparent;color:#176b55;padding:5px 0;font-weight:700;cursor:pointer}.fb-store-pagination{display:flex;gap:7px;justify-content:center;margin:25px 0}.fb-store-pagination a{padding:8px 12px;border:1px solid #d5dfd8;border-radius:8px;text-decoration:none;color:#176b55}.fb-store-pagination a.is-current{background:#176b55;color:white}.fb-store-empty{padding:35px;text-align:center;background:#f5f8f5;border-radius:14px}.fb-book-detail{display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,300px);gap:24px;margin:28px 0;padding:22px;background:#fff9ef;border:1px solid #e8eee9;border-radius:16px}.fb-book-detail h2{margin-top:0}.fb-book-detail dl{margin:0}.fb-book-detail dl div{display:flex;gap:14px;padding:9px 0;border-bottom:1px solid #e6ece7}.fb-book-detail dt{width:110px;color:#65766e;font-weight:600}.fb-book-detail dd{margin:0;color:#24332f}.fb-book-purchase{display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:18px;background:#fff;border-radius:12px}.fb-book-purchase>span{font-size:13px;color:#65766e}.fb-customer-links{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}.fb-customer-link{padding:10px 15px;border:1px solid #176b55;border-radius:9px;color:#176b55;text-decoration:none;font-weight:700}.fb-customer-link:hover{background:#e8f3ed}.fb-book-categories{font-size:14px;color:#60736b}
+@media(max-width:640px){.fb-book-detail{grid-template-columns:1fr}.fb-store-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.fb-store-card-body{padding:11px}.fb-store-card h3{font-size:15px}.fb-store-card-bottom{align-items:flex-start;flex-direction:column}.fb-store-card-bottom .fb-store-buy{width:100%}}
+
+/* v2.7.0 trust, content and SEO page components */
+.fb-core-transparency,.fb-core-contact-details{background:#fff9ef;border:1px solid #e8f3ed;border-radius:16px;padding:clamp(18px,3vw,28px);color:#24332f;margin:20px 0}
+.fb-core-transparency h3{color:#176b55;margin:18px 0 8px}.fb-core-transparency h3:first-child{margin-top:0}.fb-core-contact-details a{color:#176b55;text-decoration:underline}
+.fb-core-cta{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0}.fb-core-button{display:inline-flex;align-items:center;justify-content:center;background:#176b55;color:#fff!important;border-radius:12px;padding:12px 20px;text-decoration:none!important;font-weight:700}.fb-core-button-secondary{background:#e9a23b;color:#24332f!important}
+.fb-core-impact-intro{margin-bottom:18px}.fb-core-impact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:14px}.fb-core-impact-card{background:#e8f3ed;border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:6px}.fb-core-impact-card strong{font-size:1.8rem;color:#176b55}.fb-core-impact-card span{color:#24332f}
+@media(max-width:600px){.fb-core-cta{display:grid;grid-template-columns:1fr}.fb-core-button{width:100%;box-sizing:border-box}}
+
+
+/* FreeBooks Core 4.0.0 — order history and customer experience */
+.fb-order-history{margin:24px 0;color:#24332f}.fb-order-history-heading{display:flex;justify-content:space-between;align-items:end;gap:14px;flex-wrap:wrap;margin-bottom:18px}.fb-order-history-heading h2{margin:0}.fb-order-history-heading form{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.fb-order-history-heading select,.fb-order-history-heading button{min-height:38px;padding:7px 10px;border:1px solid #d5dfd8;border-radius:8px;background:#fff}.fb-order-history-heading button{background:#176b55;color:#fff;border-color:#176b55;font-weight:700}.fb-order-history-card{border:1px solid #e1e9e3;border-radius:14px;background:#fff;padding:17px;margin:12px 0}.fb-order-history-top,.fb-order-history-bottom{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.fb-order-history-top>div{display:grid;gap:4px}.fb-order-history-top>div span,.fb-order-history-note{color:#64766e;font-size:13px}.fb-order-status{background:#e8f3ed;color:#176b55;padding:5px 10px;border-radius:99px;font-size:12px;font-weight:700}.fb-order-items{margin:12px 0;padding-left:20px}.fb-order-items li{padding:3px 0}.fb-order-items li span{color:#64766e}.fb-order-history-bottom{border-top:1px solid #edf1ed;padding-top:12px}.fb-order-history-bottom a,.fb-order-reorder a{color:#176b55;font-weight:700;text-decoration:none}.fb-order-reorder{margin:12px 0 0}.fb-order-pagination{display:flex;gap:7px;justify-content:center;margin:20px 0}.fb-order-pagination a{padding:7px 11px;border:1px solid #d5dfd8;border-radius:8px;text-decoration:none;color:#176b55}.fb-order-pagination a[aria-current=page]{background:#176b55;color:#fff}
+@media(max-width:600px){.fb-order-history-heading{align-items:stretch}.fb-order-history-heading form{width:100%}.fb-order-history-heading select{flex:1;min-width:0}}
+
+
+/* FreeBooks Core 4.1.0 — shipment visibility */
+.fb-shipping-status{margin:24px 0;color:#24332f}.fb-shipping-card{padding:16px 18px;margin:12px 0;border:1px solid #e1e9e3;border-radius:13px;background:#fff}.fb-shipping-card>div{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.fb-shipping-card>div span{padding:5px 10px;border-radius:30px;background:#e8f3ed;color:#176b55;font-weight:700;font-size:12px}.fb-shipping-card p{margin:8px 0;color:#53665d}.fb-shipping-card a{display:inline-block;margin-top:6px;color:#176b55;font-weight:700}.fb-shipping-note{font-size:13px;color:#64766e}.fb-shipping-card strong{overflow-wrap:anywhere}
+
+
+/* v4.4.0 accessibility improvements for WordPress-rendered FreeBooks components */
+.fb-core-panel a:focus-visible,
+.fb-core-panel button:focus-visible,
+.fb-core-panel input:focus-visible,
+.fb-core-panel select:focus-visible,
+.fb-core-panel textarea:focus-visible,
+.fb-core-button:focus-visible {
+  outline: 3px solid #176B55;
+  outline-offset: 3px;
+}
+.fb-core-panel button,
+.fb-core-panel input,
+.fb-core-panel select,
+.fb-core-panel textarea {
+  max-width: 100%;
+}
+@media (prefers-reduced-motion: reduce) {
+  .fb-core-panel *,
+  .fb-core-panel *::before,
+  .fb-core-panel *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

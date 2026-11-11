@@ -1,0 +1,73 @@
+﻿# Environment secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.sample
+.env.local.backup
+
+# Node.js dependencies and generated output
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+dist/
+coverage/
+.turbo/
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+*.tmp
+*.temp
+
+# WordPress core and configuration
+cms/wordpress/wp-admin/
+cms/wordpress/wp-includes/
+cms/wordpress/wp-config.php
+cms/wordpress/wp-config-sample.php
+
+# WordPress user uploads and private data
+cms/wordpress/wp-content/uploads/
+cms/wordpress/wp-content/cache/
+cms/wordpress/wp-content/upgrade/
+cms/wordpress/wp-content/backups/
+cms/wordpress/wp-content/backup*/
+cms/wordpress/wp-content/ai1wm-backups/
+
+# WordPress runtime files
+cms/wordpress/.htaccess
+cms/wordpress/error_log
+
+# Databases and archives
+*.sql
+*.sql.gz
+*.sqlite
+*.db
+*.bak
+*.zip
+*.tar
+*.gz
+
+# Local development and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.code-workspace
+
+# Keep only the active frontend
+frontend1/
+
+# Strict WordPress source allowlist
+cms/wordpress/*
+!cms/wordpress/wp-content/
+cms/wordpress/wp-content/*
+!cms/wordpress/wp-content/plugins/
+cms/wordpress/wp-content/plugins/*
+!cms/wordpress/wp-content/plugins/freebooks-core/
+!cms/wordpress/wp-content/plugins/freebooks-core/**
